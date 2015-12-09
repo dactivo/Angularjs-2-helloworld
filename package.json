@@ -1,0 +1,21 @@
+{
+  "name": "angularhelloworld",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "systemjs": "^0.19.6",
+    "angular2": "^2.0.0-alpha.47"
+  },
+  "devDependencies": {
+  "typescript": "^1.7.3",
+  "live-server": "^0.8.2" 
+  },
+  
+  "scripts": { 
+      "//": "los scripts se ejecutan con npm run tsc, y npm start",
+    "tsc": "tsc -p src -w",
+    "start": "live-server --open=src"
+  },
+  "author": "",
+  "license": "ISC"
+}
